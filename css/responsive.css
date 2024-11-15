@@ -1,0 +1,29 @@
+/* スマホに適応される */
+p {
+    font-size: 28px;
+}
+h1 {
+    font-size: 64px;
+}
+
+
+@media screen and (min-width:481px) {
+    /* タブレットに適応される */
+    p {
+        font-size: 26px;
+    }
+    h1 {
+        font-size: 56px;
+    }
+}
+
+
+@media screen and (min-width:960px){
+    /* PCに適応される */
+    p {
+        font-size: 24px;
+    }
+    h1 {
+        font-size: 48px;
+    }
+}
