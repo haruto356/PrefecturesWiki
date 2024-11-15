@@ -1,0 +1,12 @@
+body{
+    background: #FFF;
+    color: #000;
+}
+
+/* ダークモード時に適用 */
+@media (prefers-color-scheme: dark){
+    body{
+        background: #FFF;
+        color: #000;
+    }
+}
